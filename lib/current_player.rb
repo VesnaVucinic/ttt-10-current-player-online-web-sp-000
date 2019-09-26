@@ -8,7 +8,6 @@ def turn_count(board)
   return turns
 end
 
-# tracks who's turn it is by keeping track of how many turns have passed
 def current_player(board)
   if turn_count(board)%2 == 0
     return "X"
